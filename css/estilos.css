@@ -8,7 +8,7 @@ body {
   border: 0 solid #e7e7e7;
   border-radius: 5px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-  margin-left: 27%;
+  margin-left: 29%;
   margin-top: 10%;
   width: 40%;
 }
@@ -73,3 +73,33 @@ body {
 .value:hover {
   box-shadow: 0 10px 20px #D1CBFA;
 }
+
+@media screen and (max-width: 767px) {
+  .calculator {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+
+  .calculator.title {
+    text-align: center;
+  }
+
+  .data {
+    display: contents;
+  }
+
+  .columns {
+    margin-left: 10%;
+    width: 70%;
+  }
+
+  .price {
+    margin-left: 12%;
+  }
+}
+
+/*@media screen and (max-width: 1023px) {
+
+}
+*/
