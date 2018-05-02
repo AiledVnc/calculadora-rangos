@@ -3,59 +3,65 @@
 <head>
   <title>Calculadora de Rangos</title>
   <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-  <section id="calculadora" class="calculadora-rangos">
-    <div class="titulo">
-      <h1>Calculadora de Rangos Oficiales</h1>
+  <div class="calculator">
+    <h1>Calculadora de Rangos Oficiales</h1>
+    <div class="data">
+      <div class="columns">
+        <label>Placa actual</label>
+        <select class="group">
+          <option value="1">Seguridad</option>
+          <option value="2">Técnico</option>
+          <option value="3">Logística</option>
+          <option value="4">Supervisor</option>
+          <option value="5">Director</option>
+          <option value="6">Presidente</option>
+          <option value="7">Operativo</option>
+          <option value="8">Junta Directiva</option>
+        </select>
+        <label>Misión actual</label>
+        <select class="mission">
+          <option value="1">Seguridad Test</option>
+          <option value="2">Seguridad C</option>
+          <option value="3">Seguridad B</option>
+          <option value="4">Seguridad A</option>
+          <option value="5">Guardia de Seg. C</option>
+          <option value="6">Guardia de Seg. B</option>
+          <option value="7">Guardia de Seg. A</option>
+          <option value="8">Guardia de Seg. en Jefe</option>
+        </select>
+      </div>
+      <div class="columns">
+        <label>Placa querida</label>
+        <select class="group">
+          <option value="1">Supervisor</option>
+          <option value="2">Director</option>
+          <option value="3">Presidente</option>
+          <option value="4">Operativo</option>
+          <option value="5">Junta Directiva</option>
+        </select>
+        <label>Misión querida</label>
+        <select class="mission">
+          <option value="25">Sup. de Base</option>
+          <option value="26">Sup. de Base I</option>
+          <option value="27">Sup. de Soporte</option>
+          <option value="28">Sup. de Soporte I</option>
+          <option value="29">Sup. de Protocolo</option>
+          <option value="30">Sup. de Rasos</option>
+          <option value="31">Sup. de Seguridad</option>
+          <option value="32">Sup. de Técnicos</option>
+          <option value="33">Sup. de Logística</option>
+          <option value="34">Sup. General</option>
+          <option value="35">Sup. en Jefe</option>
+        </select>
+      </div>
     </div>
-    <label class="col1-placa">Placa actual</label>
-    <select class="placa-actual">
-      <option value="1">Seguridad</option>
-      <option value="2">Técnico</option>
-      <option value="3">Logística</option>
-      <option value="4">Supervisor</option>
-      <option value="5">Director</option>
-      <option value="6">Presidente</option>
-      <option value="7">Operativo</option>
-      <option value="8">Junta Directiva</option>
-    </select>
-    <label class="col1-mision">Misión actual</label>
-    <select class="mision-actual">
-      <option value="1">Seguridad Test</option>
-      <option value="2">Seguridad C</option>
-      <option value="3">Seguridad B</option>
-      <option value="4">Seguridad A</option>
-      <option value="5">Guardia de Seg. C</option>
-      <option value="6">Guardia de Seg. B</option>
-      <option value="7">Guardia de Seg. A</option>
-      <option value="8">Guardia de Seg. en Jefe</option>
-    </select>
-    <label class="col2-placa">Placa querida</label>
-    <select class="placa-querida">
-      <option value="1">Supervisor</option>
-      <option value="2">Director</option>
-      <option value="3">Presidente</option>
-      <option value="4">Operativo</option>
-      <option value="5">Junta Directiva</option>
-    </select>
-    <label class="col2-mision">Misión querida</label>
-    <select class="mision-querida">
-      <option value="25">Sup. de Base</option>
-      <option value="26">Sup. de Base I</option>
-      <option value="27">Sup. de Soporte</option>
-      <option value="28">Sup. de Soporte I</option>
-      <option value="29">Sup. de Protocolo</option>
-      <option value="30">Sup. de Rasos</option>
-      <option value="31">Sup. de Seguridad</option>
-      <option value="32">Sup. de Técnicos</option>
-      <option value="33">Sup. de Logística</option>
-      <option value="34">Sup. General</option>
-      <option value="35">Sup. en Jefe</option>
-    </select>
-    <div class="cantidad-precio">
-      <button type="submit" class="precio">Calcular</button>
+    <div class="price">
+      <button type="submit" class="btn value">Calcular</button>
     </div>
-  </section>
+  </div>
 </body>
 </html>
