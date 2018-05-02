@@ -99,7 +99,15 @@ body {
   }
 }
 
-/*@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
+  .calculator {
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+  }
 
+  .columns {
+    margin-left: 6%;
+  } 
 }
-*/
+
